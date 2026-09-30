@@ -1,0 +1,6 @@
+# Ignore python scripts and temp files
+*.py
+*.docx
+*.log
+*.tmp
+__pycache__/

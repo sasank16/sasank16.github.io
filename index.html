@@ -133,8 +133,8 @@
         </button>
 
         <!-- Resume Access Button (Points to user uploaded PDF) -->
-        <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-semibold tracking-wide shadow-md shadow-blue-500/20 hover:scale-105 transition-all">
-          <i class="fa-solid fa-file-arrow-down"></i>
+        <a href="resume.pdf" target="_blank" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-semibold tracking-wide shadow-md shadow-blue-500/20 hover:scale-105 transition-all">
+          <i class="fa-solid fa-file-pdf"></i>
           <span>Resume PDF</span>
         </a>
 
@@ -153,9 +153,16 @@
       <a href="#education" class="block py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-blue-500">Education</a>
       <a href="#profiles" class="block py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-blue-500">Profiles</a>
       <a href="#contact" class="block py-2 text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-blue-500">Contact</a>
-      <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="block py-2.5 text-center text-sm font-semibold text-white bg-blue-600 rounded-xl shadow-md">
-        <i class="fa-solid fa-file-arrow-down mr-1"></i> Download Resume PDF
-      </a>
+      <div class="grid grid-cols-2 gap-2 pt-1">
+        <a href="resume.pdf" target="_blank" class="py-2.5 text-center text-xs font-semibold text-white bg-blue-600 rounded-xl shadow-md flex items-center justify-center space-x-1.5">
+          <i class="fa-solid fa-eye text-xs"></i>
+          <span>View Resume</span>
+        </a>
+        <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="py-2.5 text-center text-xs font-semibold text-slate-800 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 rounded-xl shadow-md border border-slate-200 dark:border-slate-700 flex items-center justify-center space-x-1.5">
+          <i class="fa-solid fa-file-arrow-down text-xs"></i>
+          <span>Download</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -190,16 +197,20 @@
           </p>
 
           <!-- Action Buttons -->
-          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
-            <a href="#projects" class="px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-sm shadow-lg shadow-blue-500/25 hover:shadow-xl hover:scale-105 transition-all flex items-center space-x-2">
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 pt-2">
+            <a href="#projects" class="px-5 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold text-sm shadow-lg shadow-blue-500/25 hover:shadow-xl hover:scale-105 transition-all flex items-center space-x-2">
               <i class="fa-solid fa-code"></i>
-              <span>Explore All Projects (7)</span>
+              <span>Explore Projects</span>
             </a>
-            <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="px-6 py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold text-sm border border-slate-300 dark:border-slate-700 shadow-sm hover:scale-105 transition-all flex items-center space-x-2">
-              <i class="fa-solid fa-file-pdf text-red-500"></i>
-              <span>Download Resume</span>
+            <a href="resume.pdf" target="_blank" class="px-5 py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold text-sm border border-slate-300 dark:border-slate-700 shadow-sm hover:scale-105 transition-all flex items-center space-x-2">
+              <i class="fa-solid fa-eye text-blue-500"></i>
+              <span>View Resume</span>
             </a>
-            <a href="#contact" class="px-6 py-3 rounded-xl bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold text-sm transition-all">
+            <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="px-5 py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold text-sm border border-slate-300 dark:border-slate-700 shadow-sm hover:scale-105 transition-all flex items-center space-x-2">
+              <i class="fa-solid fa-file-arrow-down text-emerald-500"></i>
+              <span>Download PDF</span>
+            </a>
+            <a href="#contact" class="px-5 py-3 rounded-xl bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-semibold text-sm transition-all">
               Contact Me
             </a>
           </div>
@@ -1029,7 +1040,8 @@
       <p>© 2026 Kancharla Naga Venkata Sai Sasank • Allavaram, Konaseema, AP</p>
       <div class="flex items-center space-x-6">
         <a href="#home" class="hover:text-blue-500">Back to Top ↑</a>
-        <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="hover:text-blue-500">Resume PDF</a>
+        <a href="resume.pdf" target="_blank" class="hover:text-blue-500">View Resume</a>
+        <a href="resume.pdf" target="_blank" download="Kancharla_Naga_Venkata_Sai_Sasank_Resume.pdf" class="hover:text-blue-500">Download PDF</a>
         <a href="https://github.com/sasank16" target="_blank" class="hover:text-blue-500">GitHub</a>
         <a href="https://leetcode.com/u/KNV_SAI_SASANK/" target="_blank" class="hover:text-blue-500">LeetCode</a>
       </div>
